@@ -1,0 +1,87 @@
+@keyframes pop {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  
+  .counter-value {
+    font-size: 2em;
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: transform 0.1s;
+    user-select: none;
+  }
+  
+  .counter-value.change {
+    animation: pop 0.2s ease;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .counter-decrement, .counter-increment {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  } 
+  
+  .counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .drone-purchase {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .drones-owned {
+    font-size: 1.5em;
+  }
+  
+  .drone-section {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  .sections-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .upgrade-section {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  .dpd-section {
+    margin-top: 20px;
+  }
+  
+  .dpd-purchase {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .dpds-owned {
+    font-size: 1.2em;
+  }
+  
