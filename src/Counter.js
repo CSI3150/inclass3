@@ -101,7 +101,6 @@ function Counter() {
               <div>
                 <p>Click Value: {clickValue}</p>
                 <p>Drone Efficiency: {droneEfficiency}</p>
-                {/* Additional information about rates and hidden values */}
               </div>
             )}
           </>
